@@ -32,9 +32,9 @@ Clone o projeto com o comando abaixo:
   ❯ git clone https://github.com/carlalucio/MimicAPI.git
 ```
 
-	- Abra a solução MimicAPI usando o VisualStudio
-  - Execute o projeto
-  - Você será diretionado para o SwagguerUI
+- Abra a solução MimicAPI usando o VisualStudio
+- Execute o projeto
+- Você será direcionado para o SwagguerUI
 
 ---
 
