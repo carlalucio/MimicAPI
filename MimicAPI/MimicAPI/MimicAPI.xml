@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimicAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.ObterTodas(MimicAPI.Helpers.PalavraUrlQuery)">
+            <summary>
+            Operação que pega do banco de dados todas as Palavras existentes
+            </summary>
+            <param name="query"> Filtros de pesquisa</param>
+            <returns>Listagem de Palavras</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Obter(System.Int32)">
+            <summary>
+            Operação que pega uma única Palavra da base de dados
+            </summary>
+            <param name="id">Código identificador da Palavra</param>
+            <returns>Um objeto de Plavra</returns>      
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Cadastrar(MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza o Cadastro da Palavra
+            </summary>
+            <param name="palavra">Um objeto Palavra</param>
+            <returns>Um objeto Palavra com seu Id</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Atualizar(System.Int32,MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza a substituição de dados de uma Palavra específica
+            </summary>
+            <param name="id">Codigo identificador da Palavra a ser alterada</param>
+            <param name="palavra">Objeto Palavra com dados para alteração</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Deletar(System.Int32)">
+            <summary>
+            Operação que desativa uma Palavra do Sistema
+            </summary>
+            <param name="id">Código identificador da palavra</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V2.Controllers.PalavraController.ObterTodas">
+            <summary>
+            Operação que pega o nome da Versão 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
